@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sdsx/avatar": ["libs/avatar/src/index.ts"],
+      "@sdsx/button": ["libs/button/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
